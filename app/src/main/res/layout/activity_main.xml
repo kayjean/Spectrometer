@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Chart">
+
+
+    <ImageView
+        android:id="@+id/imageDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <com.example.kayjean.camera.SparkView
+        android:id="@+id/sparkview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:spark_lineColor="@color/colorAccent"
+        app:spark_fillColor="@color/colorAccentTransparent"
+        app:spark_scrubEnabled="true"/>
+
+    <CheckBox
+        android:id="@+id/fillCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fill" />
+
+    <Button
+        android:id="@+id/random_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/randomize"/>
+</LinearLayout>

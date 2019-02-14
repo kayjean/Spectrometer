@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="control_background">#cc4285f4</color>
+    <color name="spark_line_color">#000000</color>
+    <color name="spark_fill_color">#a0000000</color>
+    <color name="spark_base_line_color">#757577</color>
+    <color name="spark_scrub_line_color">#757577</color>
+
+    <color name="colorAccentTransparent">#4021ce99</color>
+</resources>

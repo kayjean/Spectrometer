@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="spark_SparkView">
+        <item name="spark_lineColor">@color/spark_line_color</item>
+        <item name="spark_lineWidth">@dimen/spark_line_width</item>
+        <item name="spark_cornerRadius">@dimen/spark_corner_radius</item>
+        <item name="spark_fillColor">@color/spark_fill_color</item>
+        <item name="spark_fill">false</item>
+
+        <item name="spark_baseLineColor">@color/spark_base_line_color</item>
+        <item name="spark_baseLineWidth">@dimen/spark_base_line_width</item>
+
+        <item name="spark_scrubLineColor">@color/spark_scrub_line_color</item>
+        <item name="spark_scrubLineWidth">@dimen/spark_scrub_line_width</item>
+        <item name="spark_scrubEnabled">false</item>
+        <item name="spark_animateChanges">true</item>
+    </style>
+</resources>
